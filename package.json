@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,14 +15,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Monique-Duarte/Clone_DisneyPlus/issues"
   },
   "homepage": "https://github.com/Monique-Duarte/Clone_DisneyPlus#readme",
   "devDependencies": {
-    "gulp": "^5.0.0",
+    "gulp": "^4.0.2",
     "gulp-sass": "^6.0.1",
-    "sass": "^1.87.0"
+    "sass": "^1.86.0"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^7.1.0",
+    "imagemin": "^9.0.1"
   }
 }
